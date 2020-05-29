@@ -1,0 +1,183 @@
+.genre-page {
+    padding: 50px;
+    margin: 20px;
+    max-width: 1300px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.genre-page-title {
+    font-size: 1.3rem;
+    opacity: 0.7;
+}
+
+.container {
+    padding: 100px 50px;
+    overflow: auto;
+    margin: auto;
+}
+
+.navigation-element {
+    display: inline-block;
+    font-size: 0.55rem;
+    padding: 0.3rem 0.4rem;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    background: #ddd;
+    text-align: center;
+    margin-right: 20px;
+    line-height: 80px;
+}
+
+.current {
+    background: #6F6F6F;
+    color: #fff;
+}
+
+.navigation-line {
+    display: inline-block;
+    width: 200px;
+    height: 2px;
+    background: #ddd;
+}
+
+.navigation-element span {
+    font-size: 2.5rem;
+    opacity: 0.5;
+}
+
+.genre-buttons {
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.genre-buttons:hover {
+    background: #6F6F6F;
+    color: #fff;
+}
+
+.genre-buttons:focus {
+    background: #6F6F6F;
+    color: #fff;
+}
+
+.genre-buttons span {
+    font-size: 1.5rem;
+    opacity: 0.7;
+}
+
+.navigation-buttons button {
+    position: fixed;
+    float: right;
+    /*bottom: ;*/
+}
+
+.subgenre-input {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.subgenre-checkbox {
+    padding: 20px 0px;
+}
+
+.text-size-label {
+    font-size: 14px;
+    line-height: 19px;
+    color: #4a4a4a;
+    margin-bottom: 3px;
+}
+
+.red-star {
+    color: #EF5050;
+    font-size: 20px;
+    position: absolute;
+    padding: 1px 0 5px 5px;
+}
+
+.information-container {
+    display: flex;
+}
+
+.information-page {
+    flex: 1;
+    margin: 2rem;
+}
+
+.information-page label {
+    display: block;
+}
+
+.information-page .form-group {
+    margin: 0.5rem;
+}
+
+.information-page .form-group-small {
+    width:20%;
+    margin: 0.5rem;
+}
+
+.information-page .inline-group {
+    display: flex;
+}
+
+.pages {
+    width: 15%;
+}
+
+.information-page .inline-group .form-group {
+    width: 20%;
+}
+
+.information-page input,
+.information-page textarea {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+.information-page textarea {
+    height: 150px;
+}
+
+.final-page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.final-page p {
+    margin-top: 20px;
+}
+
+.final-page .add-another-book {
+    margin: 20px;
+    padding: 10px 60px;
+    background: #4a4a4a;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.final-page .add-another-book:hover {
+    cursor: pointer;
+    background: #6F6F6F;
+}
+
+.errors {
+    color: darkred;
+    width: 100%;
+    margin: 40px;
+    background: #ffeeee;
+    font-size: 1.2rem;
+    padding: 5px 0px;
+    border-radius: 5px;
+    border: solid 2px;
+}
