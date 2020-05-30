@@ -58,11 +58,19 @@
 .genre-buttons:hover {
     background: #6F6F6F;
     color: #fff;
+    outline: none;
 }
 
 .genre-buttons:focus {
+    outline: none;
     background: #6F6F6F;
     color: #fff;
+}
+
+.genre-buttons:active {
+    background: #6F6F6F;
+    color: #fff;
+    outline: none;
 }
 
 .genre-buttons span {
@@ -81,6 +89,7 @@
     height: 40px;
     border-radius: 5px;
     margin-bottom: 20px;
+    outline: none;
 }
 
 .subgenre-checkbox {
@@ -164,6 +173,7 @@
     background: #4a4a4a;
     color: #fff;
     border-radius: 10px;
+    outline: none;
 }
 
 .final-page .add-another-book:hover {

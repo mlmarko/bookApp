@@ -49,8 +49,9 @@ export default class SubgenrePage extends Component {
                 return item.subgenres.map((element) => {
                     newGenreId=element.id;
                     return <button key={element.id} className="genre-buttons" onClick={() => this.handleOnClick(element)}><span>{element.name}</span></button>
-                })
+                });
             }
+            return true;
         });
     }
 

@@ -17,7 +17,7 @@ export default function FinalPage() {
                     <i className="massive check circle icon"></i>
                 </button>
                 <p>Book added successfully</p>
-                <a className="add-another-book" onClick={onHandleClick}>Add another book</a>
+                <button className="add-another-book" onClick={onHandleClick}>Add another book</button>
             </div>
         )
     }
